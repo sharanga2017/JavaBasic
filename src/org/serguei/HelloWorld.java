@@ -12,12 +12,8 @@ public class HelloWorld {
 	public static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		
-		
 
 		String[] questions = getQuestions();
-		
-		
 
 		int[] responses = getResponses();
 
@@ -40,10 +36,8 @@ public class HelloWorld {
 	}
 
 	public static String[] getQuestions() {
-		String questions[] = new String[] { "Q1 : 1+2   1. 3    2. 5     3. 5 ",
-				"Q2 : 1+56  1. 3    2. 57    3. 5",
-				"Q3 : 1+24  1. 3    2. 25    3. 5", 
-				"Q4 : 1+12  1. 3    2. 5     3. 13",
+		String questions[] = new String[] { "Q1 : 1+2   1. 3    2. 5     3. 5 ", "Q2 : 1+56  1. 3    2. 57    3. 5",
+				"Q3 : 1+24  1. 3    2. 25    3. 5", "Q4 : 1+12  1. 3    2. 5     3. 13",
 				"Q5 : 1+2   1. 3    2. 5     3. 5" };
 
 		return questions;
