@@ -9,12 +9,14 @@ import org.serguei.tickets.service.LaCaisse;
 public class GestionTickets {
 
 	
-
+	
+	
 	public static void main(String[] args) {
 	
 		
 		Personne pers1 = new Stagiaire("Peire", "Khan", 34);
 		LaCaisse.VendreTicket(pers1);
+		
 		
 		
 		Personne pers2 = new Employe("Frank", "Marshall", 34);

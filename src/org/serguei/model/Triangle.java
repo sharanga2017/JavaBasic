@@ -4,6 +4,7 @@ public class Triangle {
 	
 	private int base;
 	
+	
 	private int hauteur;
 	
 	private double aire;
